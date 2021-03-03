@@ -1,4 +1,5 @@
-current_second = 1614810384
+current_time = Time.now
+current_time.to_i 
 if current_second
   puts "Even!"
 else 
